@@ -1,0 +1,10 @@
+println("\nCalcularemos la parte real e imaginaria del armónico dado en la tarea\nIngresa el valor de theta")
+theta = parse(Float64, readline())
+println("Ingresa el valor de phi")
+phi = parse(Float64,readline())
+a = (1/8)*sqrt(1155/(2*pi))*(sin(theta))^2
+b = 3*(cos(theta))^3-cos(theta)
+Re = a*b*cos(phi)
+Im = a*b*sin(phi)
+println("la parte real es: ",Re)
+println("la parte imaginaria es: ",Im)

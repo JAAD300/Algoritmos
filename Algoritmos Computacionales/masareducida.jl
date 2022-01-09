@@ -1,0 +1,7 @@
+println("Dame la primera masa")
+m1 = parse(Float64,readline())
+println("Ahora ingresa la segunda masa")
+m2 = parse(Float64,readline())
+mv = (m1*m2)/(m1+m2)
+print("La masa reducida es: ")
+print(mv)
